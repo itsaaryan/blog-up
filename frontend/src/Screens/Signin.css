@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap");
+
+.signin {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  border-radius: 10px;
+}
+
+.signin > h2 {
+  font-size: 55px;
+  font-weight: 500;
+  font-family: "Grand Hotel", cursive;
+  padding: 20px;
+}
+
+.signin-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  height: fit-content;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.signin-container > form {
+  margin-bottom: 5px;
+}
+
+.signin-container > form > input {
+  border: 1px solid gray;
+  height: 30px;
+  border-radius: 5px;
+  width: 90%;
+  margin: 10px 0;
+  padding-left: 30px;
+}
+
+.signin-container > form > input:focus {
+  outline: none;
+  border: 2px solid #3f51b5;
+}
+
+.signin-container > form > button {
+  margin-top: 15px;
+  margin-bottom: 20px;
+  width: 100%;
+  text-align: center;
+  background-color: #3f51b5;
+  border-radius: 5px;
+  border: none;
+  height: 30px;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.login-place-icon {
+  margin: 2px;
+  position: absolute;
+  margin-top: 15px;
+  color: gray;
+}
+
+.signin-container > form > small {
+  float: right;
+  font-size: 0.7rem;
+  margin-bottom: 8px;
+  font-family: fangsong;
+}
+
+.signin-container > form > p {
+  float: left;
+  font-family: fangsong;
+}

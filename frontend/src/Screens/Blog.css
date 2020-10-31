@@ -1,0 +1,161 @@
+.blog-container {
+  max-width: 800px;
+  border-radius: 10px;
+}
+
+.blog {
+  display: flex;
+  max-width: 800px;
+  background-color: white;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.blog-left {
+  flex: 0.35;
+}
+
+.blog-right {
+  flex: 0.65;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.blog-left > img {
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 10px;
+}
+
+.blog-right > p {
+  margin-top: 10px;
+  max-height: 200px;
+  word-wrap: break-word;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-family: serif;
+}
+
+.blog-p-extend {
+  font-size: 0.9rem;
+  float: right;
+  font-weight: 600;
+  color: #3f51b5;
+}
+
+.blog-like {
+  display: flex;
+  justify-content: space-around;
+  background: white;
+  max-width: 800px;
+  padding: 10px;
+  margin-bottom: 25px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.blog-modal {
+  background: white;
+  max-width: 700px;
+  margin: auto;
+  border-radius: 10px;
+  border: none;
+  max-height: 600px;
+}
+
+.modal-container {
+  background: white;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  max-width: 700px;
+  max-height: 500px;
+  overflow: auto;
+  scrollbar-width: none;
+  padding: 20px;
+}
+
+.modal-image {
+  margin-top: 20px;
+  object-fit: contain;
+  max-width: 300px;
+  max-height: 300px;
+  display: block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 25px;
+}
+
+.modal-image > img {
+  width: 100%;
+  max-height: 300px;
+}
+
+.modal-content > h3 {
+  font-family: monospace;
+  font-size: 2rem;
+  margin-bottom: 15px;
+  text-decoration: underline;
+}
+
+.modal-content > p {
+  font-family: sans-serif;
+}
+
+.modal-comment {
+  margin-top: 20px;
+}
+
+.modal-comment > h3 {
+  font-family: monospace;
+  font-size: 2rem;
+  text-decoration: underline;
+}
+
+.modal-comment > div {
+  margin: 15px 0;
+}
+
+.modal-comment > div > img {
+  width: 30px;
+  border-radius: 100%;
+  float: left;
+  height: 30px;
+  margin-right: 15px;
+}
+
+.modal-comment > div > p {
+  font-weight: 600;
+  font-family: sans-serif;
+}
+
+.comment-input {
+  height: 50px;
+  background-color: white;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 20px;
+}
+
+.comment-input > div {
+  width: 100%;
+  height: 30px;
+  border-radius: 50px;
+  border: 2px solid gray;
+  display: flex;
+  padding: 4px;
+  padding-right: 0;
+}
+
+.comment-input > div:focus-within {
+  border: 2px solid #3f51b5;
+}
+
+.comment-input > div > input {
+  width: 90%;
+  height: 25px;
+  outline: none;
+  border: none;
+  font-size: 17px;
+  border-radius: 50px;
+}

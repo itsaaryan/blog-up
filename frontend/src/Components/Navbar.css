@@ -1,0 +1,15 @@
+.navbar-mobile-link {
+  color: black;
+}
+
+.navbar-desktop-link {
+  color: white;
+}
+
+.nav-header-link {
+  margin: auto;
+}
+
+.MuiButtonBase-root.MuiIconButton-root.makeStyles-menuButton-2.MuiIconButton-colorInherit.MuiIconButton-edgeStart {
+  margin-right: 5px;
+}

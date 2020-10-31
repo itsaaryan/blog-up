@@ -1,0 +1,84 @@
+.create {
+  max-width: 700px;
+  border-radius: 10px;
+  background-color: white;
+  margin-top: 2%;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.create-upperhalf > img {
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  max-width: 100%;
+}
+
+.create-upperhalf > label > div {
+  display: flex;
+  justify-content: space-around;
+  background-color: #3f51b5;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  opacity: 0.9;
+  float: right;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.create-upperhalf > button > p {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.create-lowerhalf {
+  margin-top: 10px;
+}
+
+.create-lowerhalf > input {
+  height: 30px;
+  margin-top: 4px;
+  width: 90%;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid gray;
+  font-size: 18px;
+}
+
+.create-lowerhalf > input:focus {
+  border-bottom: 2px solid #3f51b5;
+}
+
+.create-lowerhalf > h4 {
+  margin-top: 35px;
+}
+
+.create-lowerhalf > textarea {
+  width: 90%;
+  height: 200px;
+  margin-top: 15px;
+  border: 2px solid gray;
+  border-radius: 10px;
+  outline: none;
+  padding: 10px;
+  font-size: 18px;
+}
+
+.create-lowerhalf > textarea:focus {
+  border: 2px solid #3f51b5;
+}
+
+.create > button {
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: #3f51b5;
+  color: white;
+  letter-spacing: 2px;
+  margin-top: 15px;
+}
